@@ -85,7 +85,7 @@ body {
 }
 @media (min-width: 768px) {
   .contenedorPrincipal .titulo {
-    font-size: 8rem;
+    font-size: 7rem;
     margin: 20rem 0 5rem 20rem;
     text-align: left;
     letter-spacing: 20px;
