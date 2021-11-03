@@ -42,7 +42,7 @@ body {
   .contenedorLogo {
     position: absolute;
     width: 50%;
-    margin-left: 7rem;
+    margin-left: 15rem;
     padding-top: 5rem;
   }
 }
@@ -86,7 +86,8 @@ body {
 }
 @media (min-width: 768px) {
   .contenedorPrincipal .titulo {
-    margin: 20rem 0 10rem 10rem;
+    font-size: 8rem;
+    margin: 20rem 0 5rem 20rem;
     text-align: left;
     letter-spacing: 20px;
   }
@@ -102,8 +103,8 @@ body {
 @media (min-width: 768px) {
   .contenedorPrincipal .textoPrincipal {
     text-align: left;
-    margin-left: 8rem;
-    width: 60%;
+    margin-left: 18rem;
+    width: 40%;
   }
 }
 .contenedorPrincipal .formEmail {
@@ -112,13 +113,13 @@ body {
   justify-content: center;
   border: 0.4px solid #ce9797;
   border-radius: 5rem;
-  height: 5rem;
+  height: 6rem;
   padding-left: 4rem;
 }
 @media (min-width: 768px) {
   .contenedorPrincipal .formEmail {
-    width: 60%;
-    margin-left: 9rem;
+    width: 50%;
+    margin-left: 19.5rem;
     margin-top: 8rem;
   }
 }
@@ -128,6 +129,11 @@ body {
   background: transparent;
   font-family: "Josefin Sans", sans-serif;
   color: #ce9797;
+}
+@media (min-width: 768px) {
+  .contenedorPrincipal .formEmail .emailInput {
+    flex-grow: 0.5;
+  }
 }
 .contenedorPrincipal .formEmail .errorIcono {
   background-image: url(../images/icon-error.svg);
