@@ -1,0 +1,154 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  min-height: 80vh;
+  background: Linear-gradient(135deg, white, #fff5f5);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.contenedorLogo {
+  width: 100%;
+  display: flex;
+  padding: 5rem;
+  margin-left: -3rem;
+}
+@media (min-width: 768px) {
+  .contenedorLogo {
+    position: absolute;
+    width: 50%;
+    margin-left: 7rem;
+    padding-top: 5rem;
+  }
+}
+
+.imagenMujer {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .imagenMujer {
+    height: 90vh;
+    object-fit: cover;
+    margin-right: 20rem;
+  }
+}
+
+.contenedorPrincipal {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .contenedorPrincipal {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: left;
+  }
+}
+.contenedorPrincipal .titulo {
+  margin: 8rem 0 3rem 0;
+  font-size: 5rem;
+  text-align: center;
+  color: #ce9797;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.contenedorPrincipal .titulo .resaltado {
+  display: block;
+  color: #413a3a;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .contenedorPrincipal .titulo {
+    margin: 20rem 0 10rem 10rem;
+    text-align: left;
+    letter-spacing: 20px;
+  }
+}
+.contenedorPrincipal .textoPrincipal {
+  width: 100%;
+  font-size: 1.6rem;
+  color: #ce9797;
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+@media (min-width: 768px) {
+  .contenedorPrincipal .textoPrincipal {
+    text-align: left;
+    margin-left: 8rem;
+    width: 60%;
+  }
+}
+.contenedorPrincipal .formEmail {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  border: 0.4px solid #ce9797;
+  border-radius: 5rem;
+  height: 5rem;
+  padding-left: 4rem;
+}
+@media (min-width: 768px) {
+  .contenedorPrincipal .formEmail {
+    width: 60%;
+    margin-left: 9rem;
+    margin-top: 8rem;
+  }
+}
+.contenedorPrincipal .formEmail .emailInput {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ce9797;
+}
+.contenedorPrincipal .formEmail .errorIcono {
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right 5% center;
+}
+.contenedorPrincipal .formEmail .emailInput:focus {
+  outline: none;
+}
+.contenedorPrincipal .formEmail button {
+  cursor: pointer;
+  flex-grow: 1;
+  border: none;
+  border-radius: 5rem;
+  background: Linear-gradient(135deg, #f8bfbf, #ee8c8c);
+}
+@media (min-width: 768px) {
+  .contenedorPrincipal .formEmail button {
+    flex-grow: 0.5;
+  }
+}
+.contenedorPrincipal .error {
+  border: 2px solid #f96262;
+}
