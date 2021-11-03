@@ -54,7 +54,6 @@ body {
   .imagenMujer {
     height: 90vh;
     object-fit: cover;
-    margin-right: 20rem;
   }
 }
 
@@ -64,7 +63,7 @@ body {
 @media (min-width: 768px) {
   .contenedorPrincipal {
     background-image: url(../images/bg-pattern-desktop.svg);
-    width: 100%;
+    width: 80%;
     height: 90vh;
     display: flex;
     justify-content: left;
@@ -157,4 +156,8 @@ body {
 }
 .contenedorPrincipal .error {
   border: 2px solid #f96262;
+}
+
+footer {
+  margin-top: 5rem;
 }
